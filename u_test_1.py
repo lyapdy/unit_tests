@@ -17,7 +17,7 @@ def zodiak(day, month):
 
 
 class TestGetZodiac(unittest.TestCase):
-    def test_get_zodiak_returns_not_none(self):
+    def is_something_in_zodiak(self):
         self.assertIsNotNone(zodiak(21, 'март'))
 
 if __name__ == '__main__':
